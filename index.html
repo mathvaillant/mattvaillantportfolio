@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Matt Vaillant</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Matheus Vaillant</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Matheus</span><br> Web Developer</h1>
+
+        <a href="#contact" class="button">Contact</a>
+      </div>
+
+      <div class="home__social">
+        <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a target="_blank" href="https://github.com/mathvaillant" class="home__social-icon"><i
+            class='bx bxl-github'></i></a>
+      </div>
+
+      <div class="home__img">
+        <img src="assets/img/m.GIF" alt="">
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.jpg" alt="">
+        </div>
+
+        <div>
+          <p class="about__text">Hello! <br> I'm Matheus Vaillant, a web developer based in Lisbon, Portugal.
+            <br>
+            <br>
+            I enjoy creating things that live on the internet, whether that be websites, applications, or anything in
+            between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div class="skills__data">
+          <div class="skills__names">
+            <div class="skills__item">
+              <span class="skills__name">HTML5, CSS3</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">Sass</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">React Js</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">Bootstrap</span>
+            </div>
+          </div>
+          <div class="skills__names">
+            <div class="skills__item">
+              <span class="skills__name">Firebase</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">Node js</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">API's & JSON</span>
+            </div>
+            <div class="skills__item">
+              <span class="skills__name">Figma Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/work3.jpg" alt="" class="skills__img">
+        </div>
+      </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/amazon full stack clone.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">Amazon Clone</h2>
+          <p class="work-intro">Full Stack Amazon Clone built with <span class="stack">React Js & Firebase for back-end
+            </span>- Users can Sign in & Sign Up, add and remove from cart </p>
+          <p style="font-size: 0.8rem;" class="work-intro">⚠️ Currently working on the next feature: <span
+              style="color: #00ffea;">back-end payment with Stripe Api</span></p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://full-stack-clone.web.app/"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/amazon-clone"><img src="assets/img/code.png"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/instaink.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">InstaInk - "Instagram for tattoos"</h2>
+          <p class="work-intro">Instaink - "Instagram Like App" built with <span class="stack">React Js & Firebase
+              for</span> back-end - Users can post & comment other user's posts</p>
+          <p style="font-size: 0.8rem;" class="work-intro">⚠️ Currently working on the next feature: <span
+              style="color: #00ffea;">Removing posts</span></p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://instaink-cc703.web.app/"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/instaink-app"><img src="assets/img/code.png"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/spotify ui clone.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">Spotify UI Clone</h2>
+          <p class="work-intro">Spotify UI Clone made with <span class="stack">React JS using Spotify Web API</span> -
+            Authentication & User data from Spotify</p>
+          <p style="font-size: 0.8rem;" class="work-intro">⚠️ Currently working on the next feature: <span
+              style="color: #00ffea;">Set Current Song</span></p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://spotify-ui-reactjs-ui-clone.netlify.app"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/spotify-clone-react-js-main"><img
+                src="assets/img/code.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/myquote.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">MyQuote</h2>
+          <p class="work-intro">MyQuotes is a full stack application which uses <span class="stack">Handlebars.js,
+              Node.js, Express, MongoDB, Passport & Google OAuth</span></p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://myquoteonline.herokuapp.com/"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/myquote"><img src="assets/img/code.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/apple image finder.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">AppleImageFinder</h2>
+          <p class="work-intro"> <span class="stack">React + Tailwind</span> App to find Apple products images</p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://appleimagefinder.netlify.app/"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/appleimagefinder"><img src="assets/img/code.png"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__container bd-grid">
+        <div class="work__img">
+          <img src="assets/img/tattoo.gif" alt="">
+        </div>
+        <div class="work-preview">
+          <h2 class="work-title">True Love Tattoo Shop</h2>
+          <p class="work-intro">Landing page in <span class="stack">ReactJs</span> + Tawk.to Embeded</p>
+          <div class="work-links">
+            <a style="margin-right: 1.3rem;" target="_blank" href="https://truelovetattoolisbon.netlify.app/"><img
+                src="assets/img/external link.png" alt=""></a>
+            <a target="_blank" href="https://github.com/mathvaillant/truelovetattoostudio"><img
+                src="assets/img/code.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="POST" class="contact__form" data-netlify="true" id="contact-form">
+          <input type="text" placeholder="Name" name="Name" class="contact__input input-field">
+          <input type="mail" placeholder="Email" name="email" class="contact__input input-field">
+          <textarea name="message" id="" cols="0" rows="10" class="contact__input input-field"
+            placeholder="Write your message...">
+          </textarea>
+          <div data-netlify-recaptcha="true"></div>
+          <input type="button" value="Send" class="contact__button button" id="submit-btn">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p>&#169; 2020 made by MattVaillant</p>
+  </footer>
+
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
