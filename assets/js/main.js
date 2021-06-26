@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
     ? animation.classList.remove('hide')
     : setTimeout(() => {
         animation.classList.add('hide')
-      }, 000)
+      }, 3000)
 })
 /*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
