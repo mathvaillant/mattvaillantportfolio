@@ -605,6 +605,17 @@ img {
     color: #fff !important;
   }
 
+  .nav__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav__logo > img {
+    width: 100px;
+    margin-right: 4px;
+    z-index: 100;
+  }
+
   .home {
     height: 100vh;
   }
