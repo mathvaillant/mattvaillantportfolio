@@ -56,7 +56,7 @@ h1 > span {
 
 .intro {
   position: absolute;
-  top: 60%;
+  top: 35rem;
   left: 15%;
 }
 
@@ -350,7 +350,7 @@ section.home {
   margin-top: 5rem;
 }
 
-#portfolio .title h1 {
+#work .title h1 {
   margin-left: 1rem !important;
 }
 
@@ -525,8 +525,7 @@ section.home {
   }
 
   .intro {
-    position: absolute;
-    top: 60%;
+    top: 25rem;
     left: 7%;
   }
 
@@ -579,7 +578,7 @@ section.home {
 
   .intro {
     position: absolute;
-    top: 60%;
+    top: 25rem;
     left: 7%;
   }
 
@@ -614,6 +613,13 @@ section.home {
   .bg__clip {
     display: none;
   }
+  .logo {
+    left: 0.4rem;
+  }
+
+  .logo img {
+    width: 80px;
+  }
 }
 
 @media (max-width: 930px) {
@@ -628,7 +634,7 @@ section.home {
   }
 
   .intro {
-    top: 45%;
+    top: 30rem;
     left: 10%;
     width: 370px;
   }
@@ -678,7 +684,7 @@ section.home {
 
   .intro {
     position: absolute;
-    top: 45%;
+    top: 20rem;
     left: 10%;
     font-size: 1.3rem;
     width: 300px;
