@@ -610,6 +610,12 @@ section.home {
   }
 }
 
+@media (max-width: 900px) {
+  .bg__clip {
+    display: none;
+  }
+}
+
 @media (max-width: 930px) {
   h1 {
     font-size: 4rem;
