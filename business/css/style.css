@@ -58,6 +58,19 @@ h1 > span {
   position: absolute;
   top: 35rem;
   left: 15%;
+  transition: linear 200ms;
+}
+
+p:hover {
+  clip-path: polygon(0 0, 97% 7%, 100% 100%, 0% 87%);
+}
+
+span {
+  transition: linear 200ms;
+}
+
+span:hover {
+  clip-path: polygon(0 0, 97% 7%, 100% 100%, 0% 87%);
 }
 
 p,
@@ -130,7 +143,7 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: var(--primary-color) url(../images/menu.png);
+  background: url(../images/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,7 +152,7 @@ section.home {
 }
 
 .toggle.active {
-  background: var(--primary-color) url(../images/close.png);
+  background: url(../images/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,6 +250,11 @@ section.home {
   height: fit-content;
   display: flex;
   align-items: center;
+  transition: linear 200ms;
+}
+
+#about .about p:hover {
+  clip-path: polygon(0 0, 97% 7%, 100% 100%, 0% 87%);
 }
 
 #about .about .about__services {

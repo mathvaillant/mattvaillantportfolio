@@ -1,6 +1,3 @@
-/*===== INIT ANIMATION =====*/
-const animation = document.querySelector('.DOM_Loaded_animation')
-
 const toggle = document.querySelector('.toggle')
 const navigation = document.querySelector('.navigation')
 const options = document.querySelector('#options')
@@ -20,27 +17,31 @@ const btn = document.getElementById('sendEmail')
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: 'top',
-  distance: '80px',
+  distance: '20px',
   duration: 900,
   reset: true,
 })
 
-/*SCROLL HOME*/
-sr.reveal('.home__title', {})
+/*SHOWCASE SCROLL*/
+sr.reveal('.home', {})
 sr.reveal('.intro', { delay: 200 })
-sr.reveal('.home__img', { delay: 400 })
-sr.reveal('.home__social-icon', { interval: 200 })
+sr.reveal('.intro__a', { delay: 400 })
+sr.reveal('.home-img', { interval: 200 })
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {})
-sr.reveal('.about__subtitle', { delay: 400 })
-sr.reveal('.about__text', { delay: 400 })
+sr.reveal('.title', {})
+sr.reveal('.about', { delay: 300 })
+sr.reveal('.about__p', { delay: 400 })
+sr.reveal('.service_1 ', { delay: 500 })
+sr.reveal('.service_2 ', { delay: 200 })
+sr.reveal('.service_3 ', { delay: 400 })
+sr.reveal('.service_4 ', { delay: 600 })
 
-/*SCROLL SKILLS*/
-sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__text', {})
-sr.reveal('.skills__data', { interval: 200 })
-sr.reveal('.skills__img', { delay: 600 })
+/*SCROLL SERVICES*/
+sr.reveal('.service', {})
+sr.reveal('.', {})
+sr.reveal('.service', { interval: 200 })
+sr.reveal('.service', { delay: 300 })
 
 /*SCROLL WORK*/
 sr.reveal('.work__img', { interval: 200 })
