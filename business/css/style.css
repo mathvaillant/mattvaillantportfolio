@@ -26,7 +26,7 @@ p,
 .navigation ul li a:hover {
   text-shadow: 0px 1px 1px #000000;
   padding: 1rem 3rem 1rem 1rem;
-  background-color: yellow;
+  background-color: #ffd829;
   clip-path: polygon(0 0, 100% 6%, 100% 88%, 0% 100%);
 }
 
@@ -125,8 +125,8 @@ section.home {
   display: flex;
   align-items: center;
   position: absolute;
-  top: -10px;
-  left: 5rem;
+  top: 5px;
+  left: 6rem;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
@@ -337,7 +337,7 @@ section.home {
   font-weight: 700;
   margin-top: 20px;
   color: black;
-  background-color: yellow;
+  background-color: #ffd829;
   padding: 1rem 1rem 10rem 1rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 58%);
   text-shadow: none;
@@ -414,7 +414,7 @@ section.home {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: yellow;
+  background-color: #ffd829;
   padding: 100px 0px 0px 0px;
   width: 100%;
 }
