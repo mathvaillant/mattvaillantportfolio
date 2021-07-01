@@ -21,32 +21,6 @@
   opacity: 0;
 }
 
-/* TOGGLE */
-.nav__toggle > .bx {
-  display: none;
-}
-
-.nav__toggle {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 50px;
-  background: url(/business/images/menu.png);
-  background-size: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 20;
-  cursor: pointer;
-}
-
-.nav__toggle.active {
-  background: url(/business/images/close.png);
-  background-size: 25px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -180,6 +154,33 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+/* TOGGLE */
+.nav__toggle > .bx {
+  display: none;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 50px;
+  background: url(/business/images/menu.png);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 20;
+  cursor: pointer;
+  background-color: var(--second-color);
+}
+
+.nav__toggle.active {
+  background: url(/business/images/close.png);
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*===== NAV =====*/
