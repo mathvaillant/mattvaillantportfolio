@@ -44,7 +44,11 @@ sr.reveal('.service', { interval: 200 })
 sr.reveal('.service', { delay: 300 })
 
 /*SCROLL WORK*/
-sr.reveal('.work__img', { interval: 200 })
+sr.reveal('.item', { interval: 200 })
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input', { interval: 200 })
+sr.reveal('.btn', { interval: 200 })
+
+/*SCROLL PRICING*/
+sr.reveal('.snip1214', {})
+sr.reveal('.plan', { interval: 200 })
