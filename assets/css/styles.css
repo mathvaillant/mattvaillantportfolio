@@ -201,7 +201,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #00ffea;
     transition: 0.5s;
   }
 }
